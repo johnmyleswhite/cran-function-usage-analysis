@@ -1,0 +1,12 @@
+h1. "cran-function-usage-analysis":http://github.com/johnmyleswhite/cran-function-usage-analysis
+
+This code was developed to perform a frequency analysis of function usage
+in standard R source code. You will need functioning copies of Perl, Ruby and
+R to use the code. The spidering code will download all of the packages
+currently on CRAN to your local machine; this code is in Perl and uses the
+WWW:Mechanize library. The tokenization code is written in Ruby; it has no
+external dependencies. Finally, the analysis code is written in R and depends
+upon the ggplot2 package to generate graphs.
+
+To follow the steps you need to take to replicate these results, work through
+the usage.sh script, which needs to be slightly edited before it can be run.
